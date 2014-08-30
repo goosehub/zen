@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "something";
+  src: url(something.ttf) format("truetype");
+}
+@font-face {
+  font-family: "ru";
+  src: url(ru.ttf) format("truetype");
+}
+@font-face {
+  font-family: "anchor";
+  src: url(anchor.ttf) format("truetype");
+}
+@font-face {
+  font-family: "amatic";
+  src: url(amatic.ttf) format("truetype");
+}
+
+      /*Universals*/
+
+html {
+  background: url('sunset2.jpg') center top no-repeat fixed;
+  overflow-x: hidden;
+}
+h3, h4 {
+	text-align: center;
+	color: #000000;
+	font-family: "something", sans-serif;
+	font-size: 45;
+  letter-spacing: 0.1em;
+  opacity:0.9;
+}
+li {
+  padding-top: 0.5em;
+}
+
+      /*summary*/
+
+h1, h2 {
+  font-variant: small-caps;
+  font-family: "anchor", sans-serif;
+  font-size: 70;
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+}
+h2 {
+  margin-top: -70px;
+  color: #000000;
+}
+.summary {
+  width: 50%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background:rgba(255,255,255,0.5);
+  border: 5px solid #000000;
+  border-radius: 40px/30px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+  padding: 0 1.5em 0 1.5em;
+  text-align: center;
+  margin-bottom: 300px;
+}
+.summary p, .summary a, .summary li {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #222222;
+}
+
+      /*preamble*/
+
+.preamble h3 {
+  margin-top: -120px;
+  padding: 0 0 400px 0;
+  color: #000000;
+}
+.preamble p {
+  width: 15%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background:rgba(0,0,0,0.8);
+  border: 5px solid #ffffff;
+  border-radius: 90px/30px;
+  -moz-box-shadow:    inset 0 0 10px #ffffff;
+   -webkit-box-shadow: inset 0 0 10px #ffffff;
+   box-shadow:         inset 0 0 10px #ffffff;
+  padding:0.5em 1.5em 0.5em 1.5em;
+  text-align: center;
+}
+.preamble p, .preamble a, .preamble li {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #ffffff;
+}
+
+      /*explanation*/
+
+.explanation h3 {
+  margin-top: -120px;
+  padding: 500px 0 0 0;
+}
+/* .explanation p:nth-child(2) {
+  float: left;
+  width: 35%;
+  min-width: 200px;
+}
+.explanation p:nth-child(3) {
+  float: left;
+  width: 35%;
+  min-width: 200px;
+} */
+.explanation p {
+  background:rgba(255,255,255,0.5);
+  border: 0px solid #000000;
+  border-radius: 50px/200px;
+  -moz-box-shadow:    inset 0 0 10px #ffffff;
+   -webkit-box-shadow: inset 0 0 10px #ffffff;
+   box-shadow:         inset 0 0 10px #ffffff;
+  padding:1% 5% 1% 5%;
+  float: left;
+  width: 35%;
+  min-width: 200px;
+  margin-right:2%;
+  margin-left: 2%;
+}
+.explanation p, .explanation a, .explanation li {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #000000;
+}
+
+      /*participation*/
+
+.participation h3 {
+  clear: both;
+  margin-top: -120px;
+  padding: 400px 0 0 0;
+}
+.participation p:nth-child(2) {
+  clear: both;
+  float: left;
+  width: 15%;
+  min-width: 200px;
+  margin-left:2%;
+  border-radius: 50px 50px 10px 10px;
+}
+.participation p:nth-child(3) {
+  float: left;
+  width: 20%;
+  min-width: 200px;
+  margin-left:2%;
+  border-radius: 50px 10px 10px 50px;
+}
+.participation p:nth-child(4) {
+  float: left;
+  width: 30%;
+  min-width: 200px;
+  margin-left:2%;
+  border-radius: 10px 50px 50px 10px;
+}
+.participation p {
+  background:rgba(0,0,0,0.7);
+  border: 0px solid #ffffff;
+  /*border-radius: 50px 50px 20px 20px;*/
+  -moz-box-shadow:    inset 0 0 5px #ffffff;
+   -webkit-box-shadow: inset 0 0 5px #ffffff;
+   box-shadow:         inset 0 0 5px #ffffff;
+  padding:0 1.5em 0 1.5em;
+}
+.participation p, .participation a, .participation li {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #ffffff;
+}
+
+      /*benefits*/
+
+.benefits h3 {
+  clear: both;
+  margin-top: -120px;
+  padding: 300px 0 20px 0;
+}
+.benefits p {
+  width: 33%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  background:rgba(255,255,255,0.7);
+  border: 2px solid #000000;
+  border-radius: 20px 120px 20px;
+  padding:1em 2em 1em 2em;
+  text-align: center;
+}
+.benefits p, .benefits a, .benefits li {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #000000;
+}
+
+      /*requirements*/
+
+.requirements h3 {
+  font-variant: small-caps;
+  font-family: "anchor", sans-serif;
+  letter-spacing: 0.2em;
+}
+.requirements {
+  width: 66%;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  background:rgba(255,255,255,0.7);
+  border: 3px solid #000000;
+  border-radius: 5px 5px 40px 40px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+  padding:0 1.5em 0 1.5em;
+  text-align: left;
+}
+.requirements p, .requirements a {
+  font-family: serif;
+  font-size: 20;
+  color: #000000;
+  letter-spacing: 0.1em;
+  word-spacing: 0.08em;
+}
+.requirements p:last-child, .requirements p:last-child a {
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+}
+
+      /*footer*/
+
+footer {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background:rgba(0,0,0,0.5);
+  border: 0px solid #000000;
+  border-radius: 200px;
+  -moz-box-shadow:    inset 0 0 10px #ffffff;
+   -webkit-box-shadow: inset 0 0 10px #ffffff;
+   box-shadow:         inset 0 0 10px #ffffff;
+  padding:0.5em 1.5em 0.5em 1.5em;
+  text-align: center;
+  word-spacing: 1em;
+}
+footer a {
+  font-family: "ru", serif;
+  font-size: 25;
+  color: #ffffff;
+}
+
+      /*selection*/
+
+.design-selection h3 {
+  font-variant: small-caps;
+  font-family: "anchor", sans-serif;
+  color: #ffffff;
+  font-size: 50;
+  margin-right: 3em;
+}
+.design-selection a, .design-selection li {
+  font-family: "amatic", sans-serif;
+  font-size: 30;
+  color: #ffffff;
+}
+.design-selection {
+  float: left;
+  width: 40%;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  background:rgba(0,0,0,0.5);
+  -moz-box-shadow:    inset 0 0 5px #ffffff;
+   -webkit-box-shadow: inset 0 0 5px #ffffff;
+   box-shadow:         inset 0 0 5px #ffffff;
+  padding:0 1.5em 0 1.5em;
+  word-spacing: 0.3em;
+}
+.design-name {
+}
+
+      /*archives*/
+
+.design-archives h3 {
+  font-variant: small-caps;
+  font-family: "anchor", sans-serif;
+  color: #ffffff;
+  font-size: 50;
+  margin-right: 3em;
+}
+.design-archives a, .design-archives li {
+  font-family: "amatic", sans-serif;
+  font-size: 30;
+  color: #ffffff;
+}
+.design-archives {
+  float: right;
+  width: 20%;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 2%;
+  background:rgba(0,0,0,0.5);
+  -moz-box-shadow:    inset 0 0 5px #ffffff;
+   -webkit-box-shadow: inset 0 0 5px #ffffff;
+   box-shadow:         inset 0 0 5px #ffffff;
+  padding:0 1.5em 0 1.5em;
+  margin-right: 1em;
+}
+
+      /*resources*/
+
+.zen-resources h3 {
+  font-variant: small-caps;
+  font-family: "anchor", sans-serif;
+  color: #ffffff;
+  font-size: 50;
+  margin-right: 1em;
+}
+.zen-resources a, .zen-resources li {
+  font-family: "amatic", sans-serif;
+  font-size: 30;
+  color: #ffffff;
+}
+.zen-resources {
+  float: right;
+  width: 20%;
+  min-width: 200px;
+  margin-top: 20px;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  background:rgba(0,0,0,0.5);
+  -moz-box-shadow:    inset 0 0 5px #ffffff;
+   -webkit-box-shadow: inset 0 0 5px #ffffff;
+   box-shadow:         inset 0 0 5px #ffffff;
+  padding:0 1.5em 0 1.5em;
+}
