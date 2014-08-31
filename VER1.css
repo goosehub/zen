@@ -134,10 +134,10 @@ h2 {
 }
 @media (max-width: 1030px)  {
   .explanation p {
-    width: 66%;
+    width: 50%;
     min-width: 200px;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 23%;
+    margin-left: 23%;
   }
 }
 
