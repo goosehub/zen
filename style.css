@@ -42,6 +42,9 @@ h3 {
 li {
   padding-top: 0.5em;
 }
+.summary, p, .requirements, .design-selection, .design-archives, .zen-resources {
+  min-width: 200px;
+}
 
       /*summary*/
 
@@ -62,7 +65,6 @@ h2 {
 }
 .summary {
   width: 50%;
-  min-width: 200px;
   margin-left: auto;
   margin-right: auto;
   background:rgba(255,255,255,0.5);
@@ -90,7 +92,6 @@ h2 {
 }
 .preamble p {
   width: 15%;
-  min-width: 200px;
   margin-left: auto;
   margin-right: auto;
   background:rgba(0,0,0,0.8);
@@ -122,7 +123,6 @@ h2 {
   padding:1% 5% 1% 5%;
   float: left;
   width: 30%;
-  min-width: 200px;
   margin-right:4.5%;
   margin-left: 4.5%;
   margin-bottom: 60px;
@@ -135,7 +135,6 @@ h2 {
 @media (max-width: 1030px)  {
   .explanation p {
     width: 66%;
-    min-width: 200px;
     margin-right: 15%;
     margin-left: 15%;
   }
@@ -152,7 +151,6 @@ h2 {
   clear: both;
   float: left;
   width: 18%;
-  min-width: 200px;
   margin-left:1%;
   margin-right:1%;
   margin-bottom: 60px;
@@ -161,7 +159,6 @@ h2 {
 .participation p:nth-child(3) {
   float: left;
   width: 26%;
-  min-width: 200px;
   margin-left:1%;
   margin-right:1%;
   border-radius: 10px 10px 10px 10px;
@@ -169,7 +166,6 @@ h2 {
 .participation p:nth-child(4) {
   float: left;
   width: 36%;
-  min-width: 200px;
   margin-left:1%;
   margin-right:1%;
   border-radius: 10px 50px 50px 10px;
@@ -190,7 +186,6 @@ h2 {
 @media (max-width: 1030px)  {
   .participation p:nth-child(2), .participation p:nth-child(3), .participation p:nth-child(4) { 
   width: 50%;
-  min-width: 200px;
   margin-left: 23%;
   margin-right: 23%;
   margin-bottom: -10px;
@@ -215,7 +210,6 @@ h2 {
 }
 .benefits p {
   width: 33%;
-  min-width: 180px;
   margin-left: auto;
   margin-right: auto;
   background:rgba(255,255,255,0.7);
@@ -244,7 +238,6 @@ h2 {
 }
 .requirements {
   width: 66%;
-  min-width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
@@ -312,7 +305,6 @@ footer a {
 .design-selection {
   float: left;
   width: 42%;
-  min-width: 200px;
   margin-top: 20px;
   margin-left: 2%;
   margin-right: 2%;
@@ -344,7 +336,6 @@ footer a {
 .design-archives {
   float: right;
   width: 20%;
-  min-width: 200px;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 2%;
@@ -374,7 +365,6 @@ footer a {
 .zen-resources {
   float: right;
   width: 20%;
-  min-width: 200px;
   margin-top: 20px;
   margin-left: 2%;
   margin-right: 2%;
